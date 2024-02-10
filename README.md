@@ -11,4 +11,4 @@
 <div align="center">
   <img width="600px" src="https://github.com/feliperyo/starbucks/blob/master/img/desktop%20EDITADO.png?raw=true"/>
 </div>
-<h4 align="center">Ao passar o cursor em cima dos copinhos, eles pulam levemente e, ao clicar, a imagem e circulo de fundo mudam de cor.</h4>
+<h4 align="center">Ao passar o cursor em cima dos copinhos, eles pulam levemente e, ao clicar, o circulo de fundo e a imagem do copo maior mudam de cor.</h4>
