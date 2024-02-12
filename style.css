@@ -97,111 +97,113 @@ p {
 
 @media screen and (max-width: 1025px) {
 
-    body {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
+    .logo {
+        width: 110px;
+
     }
 
-    .logo {
-        width: 150px;
-        margin: 50px auto 0px auto;
-        display: block;
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 50px 50px;
+        padding: 0px;
     }
+
+    .conteudo {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .caixa-imagem {
+        width: 100vw;
+    }
+
+    .starbucks {
+        position: absolute;
+        right: 3%;
+        top: 25%;
+        width: 300px;
+    }
+
+    .circulo {
+        width: 105%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: circle(400px at right 500px);
+        z-index: -1;
+
+    }
+
+    .menu {
+        margin-top: 15%;
+        margin-left: -10%;
+        padding: 0px;
+    }
+
+    .copo-pequeno {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
 
     p {
         display: none;
     }
 
+    .logo {
+        width: 80px;
+
+    }
+
     h2 {
-        font-size: 45px;
-        margin-left: 20px;
+        width: 100vw;
+        font-size: 18px;
     }
 
     span {
-        font-size: 80px;
-    }
-
-    .circulo {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        clip-path: circle(370px at right 600px);
+        font-size: 40px;
     }
 
     button {
-        position: absolute;
-        margin-top: 400px;
-        margin-left: 41%;
-        width: 150px;
-        height: 70px;
-        font-size: 20px;
-        border-radius: 50px;
-    }
-
-    .copo-pequeno {
-        width: 100px;
-    }
-
-    .starbucks {
-        width: 300px;
-        margin-right: 20px;
-    }
-
-}
-
-@media screen and (max-width: 500px) {
-    .logo {
-        width: 100px;
+        font-size: 12px;
     }
 
     .caixa-texto {
-        margin-bottom: 500px;
-        margin-left: 20px;
-        margin-right: 28px;
-        margin-top: 20px;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 14px;
-        margin-left: 10px;
-    }
-
-    span {
-        font-size: 50px;
+        margin-left: 25%;
+        margin-top: -30%;
     }
 
     .circulo {
-        width: 100%;
+        width: 110%;
         height: 100%;
         position: absolute;
-        clip-path: circle(250px at right 500px);
-    }
-
-    .copo-pequeno {
-        width: 60px;
-    }
-
-    button {
-        margin-top: 200px;
-        margin-left: 15%;
-        width: 100px;
-        height: 40px;
-        font-size: 14px;
-        border-radius: 50px;
+        top: 0;
+        left: 0;
+        clip-path: circle(320px at right 500px);
+        z-index: -1;
 
     }
     .starbucks {
-        
-        width: 200px;
-        margin: 0px 0px 0px 0px;
+        right: 5%;
+        top: 40%;
+        width: 225px;
     }
-    .caixa-imagem {
-        display: block;
-        position: absolute;
-        margin-top: 120px;
-        margin-left: 215px;
+
+    .menu {
+        margin-top: 75%;
+        margin-left: -22%;
     }
-   
+
+    .copo-pequeno {
+        width: 70px;
+    }
 }
