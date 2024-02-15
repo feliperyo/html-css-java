@@ -1,7 +1,7 @@
 <h1 align="center">
   Starbucks</h1>
 <br>
-<h3 align="center">Estudo de responsividade utilizando HTML, CSS e Java Script.</h3>
+<h3 align="center">Estudo de HTML, CSS, Java Script e Responsividade.</h3>
 <br>
 <br>
 <div align="center">
