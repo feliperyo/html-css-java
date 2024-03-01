@@ -36,14 +36,28 @@ body {
 
 button {
     background-color: #017143;
-    /*cor de fundo*/
     color: #ffffff;
-    /*cor do texto*/
     border: none;
-    /*borda*/
     padding: 10px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: #004a2b;
+}
+button:active{
+    opacity: 0.5;
+}
+
+.button1{
+    visibility: visible;
+}
+
+.button2{
+    visibility: hidden;
+    position: absolute;
+    left: 33%;
 }
 
 h2 {
